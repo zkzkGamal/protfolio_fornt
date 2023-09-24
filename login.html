@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zkaria Gamal</title>
+
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-47692315-56');
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+</head>
+<body>
+
+    <div class="nav-wrapper">
+
+        <!-- Link around dots-wrapper added after tutorial video -->
+        <a href="index.html">
+            <div class="dots-wrapper">
+                <div id="dot-1" class="browser-dot"></div>
+                <div id="dot-2" class="browser-dot"></div>
+                <div id="dot-3" class="browser-dot"></div>
+            </div>
+        </a>
+        
+
+        <ul id="navigation">
+            <h2  id="close-btn" style="text-align: center">X</h2>
+            <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="profile.html"> Account</a></li>
+                <li><a href="">Logout</a></li>
+                <li><a href="login.html">Login</a></li>
+        </ul>
+        <img id="menu-icon" src="images/menu.png">
+
+    </div>
+
+    <section id="login-page-wrapper">
+        <div id="login-form-wrapper">
+            <!-- {% if messages %}
+                {% for message in messages %}
+                    {% if message.tags == 'success' %} -->
+                        <div class="alert alert-success" role="alert">
+                            <span>success</span>					
+                        </div>
+                    <!-- {% elif message.tags == 'error' %}
+                        <div class="alert alert-danger" role="alert">
+                            <span>error</span>					
+                        </div> -->
+                    <!-- {% endif %}
+                {% endfor %}
+            {% endif %} -->
+    
+            <h3 style="text-align: center">Member Login</h3>
+            <hr>
+            <form method="POST">
+                <label>Email</label>
+                <input class="form-control" type="email" name="email">
+                <br>
+                <label>Password</label>
+                <input class="form-control" type="password" name="password">
+                <br>
+                <input class="btn btn-primary btn-lg btn-block" type="submit" value="Login">
+            </form>
+    
+            <br>
+            <p>Dont have an account? <a href="register.html">Register</a></p>
+            <p>Forgot your password? <a href="">Reset</a></p>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+

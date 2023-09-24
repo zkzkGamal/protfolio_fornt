@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zkaria Gamal</title>
+
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-47692315-56');
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+    <style>
+        #div_id_tags > div{
+            max-height: 100px;
+            overflow-y: scroll;
+            border:1px solid #888;
+            padding: 5px;
+            border-radius: 5px;
+	    }
+    </style>
+</head>
+<body>
+
+    <div class="nav-wrapper">
+
+        <!-- Link around dots-wrapper added after tutorial video -->
+        <a href="index.html">
+            <div class="dots-wrapper">
+                <div id="dot-1" class="browser-dot"></div>
+                <div id="dot-2" class="browser-dot"></div>
+                <div id="dot-3" class="browser-dot"></div>
+            </div>
+        </a>
+        
+
+        <ul id="navigation">
+            <h2  id="close-btn" style="text-align: center">X</h2>
+            <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="profile.html"> Account</a></li>
+                <li><a href="">Logout</a></li>
+                <li><a href="login.html">Login</a></li>
+        </ul>
+        <img id="menu-icon" src="images/menu.png">
+
+    </div>
+    <div class="main-container">
+        <a class="btn btn-sm btn-primary" href="posts.html">&laquo Back to Posts</a>
+        
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label>headline</label>
+            <input class="form-control" type="text" name="headline">
+            <br>
+            <label>sub_headline</label>
+            <input class="form-control" type="text" name="sub_headline">
+            <br>
+            <label>body</label>
+            <input class="form-control" type="text" name="body">
+            <br>
+            <label>active</label>
+            <input class="form-control" type="checkbox" name="active">
+            <label>featured</label>
+            <input class="form-control" type="checkbox" name="featured">
+            <label>tags</label>
+            <input class="form-control" type="text" name="tags">
+            <br>
+            <input class="btn btn-primary" type="submit" value="Submit Post">
+            
+        </form>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zkaria Gamal</title>
+
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-47692315-56');
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+    <style>
+        #user_pic{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border:5px solid #888;
+            margin:0 auto;
+            object-fit: cover;
+        }
+
+        #user-info-box{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-wrapper">
+
+        <!-- Link around dots-wrapper added after tutorial video -->
+        <a href="index.html">
+            <div class="dots-wrapper">
+                <div id="dot-1" class="browser-dot"></div>
+                <div id="dot-2" class="browser-dot"></div>
+                <div id="dot-3" class="browser-dot"></div>
+            </div>
+        </a>
+        
+
+        <ul id="navigation">
+            <h2  id="close-btn" style="text-align: center">X</h2>
+            <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="profile.html"> Account</a></li>
+                <li><a href="">Logout</a></li>
+                <li><a href="login.html">Login</a></li>
+        </ul>
+        <img id="menu-icon" src="images/menu.png">
+
+    </div>
+
+
+<div class="main-container">
+	<br>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card card-body" id="user-info-box">
+				<img id="user_pic" src="images/me.jpg">
+				<br>
+				<h2>Zkaria Gamal</h2>
+				<p>Email: zekogml11@gmail.com</p>
+				<hr>
+				<p>you are looking for a passionate backend developer who can seamlessly integrate Django into your projects while harnessing the power of computer vision, I am eager to connect and explore potential collaborations. Let's leverage technology to shape the future together </p>
+				<hr>
+				<a class="btn btn-info btn-block" href="update_profile.html">Edit Profile</a>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<div class="card card-body">
+				<h3>My Orders:</h3>
+				<hr>
+				<table class="table">
+					<thead class="thead-dark">
+						<tr>
+							<th>Transaction ID</th>
+							<th>Date</th>
+							<th>Items</th>
+							<th>Total</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tr>
+						<td>122523462</td>
+						<td>11-24-2020</td>
+						<td>2</td>
+						<td>$12.18</td>
+						<td><a class="btn btn-dark btn-sm" href="">View Order</a></td>
+					</tr>
+
+					<tr>
+						<td>122523123</td>
+						<td>11-29-2020</td>
+						<td>7</td>
+						<td>$53.65</td>
+						<td><a class="btn btn-dark btn-sm" href="">View Order</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
